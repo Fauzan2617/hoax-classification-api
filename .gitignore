@@ -1,0 +1,15 @@
+# Lingkungan virtual Python
+venv/
+env/
+
+# Cache & file temporary Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File environment variables (jika nanti ada kunci rahasia)
+.env
+
+# File model (karena model kita sudah aman di Hugging Face)
+*.pkl
+*.joblib

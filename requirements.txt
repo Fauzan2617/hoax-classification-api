@@ -1,0 +1,20 @@
+# Framework untuk membuat REST API
+fastapi==0.104.1
+
+# Server untuk menjalankan FastAPI
+uvicorn==0.24.0
+
+# Validasi data pada FastAPI
+pydantic==2.4.2
+
+# Mengakses model dari Hugging Face Hub
+huggingface-hub==0.19.4
+
+# Menyimpan dan memuat model Machine Learning
+joblib==1.3.2
+
+# Rate limiting untuk API
+slowapi==0.1.4
+
+# Library Machine Learning
+scikit-learn==1.3.2
