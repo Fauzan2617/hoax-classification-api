@@ -1,15 +1,45 @@
-# Lingkungan virtual Python
+# =========================
+# DOCKER (Sesuai Permintaan)
+# =========================
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.yaml
+
+# =========================
+# KREDENSIAL & ENVIRONMENT (SANGAT PENTING)
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# VIRTUAL ENVIRONMENT PYTHON
+# =========================
 venv/
 env/
+.venv/
+.env/
+__pypackages__/
 
-# Cache & file temporary Python
+# =========================
+# CACHE & COMPILED PYTHON
+# =========================
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 
-# File environment variables (jika nanti ada kunci rahasia)
-.env
+# =========================
+# MLFLOW & DATA MODELING
+# =========================
+mlruns/
+mlflow.db
+*.sqlite
+.ipynb_checkpoints/
 
-# File model (karena model kita sudah aman di Hugging Face)
-*.pkl
-*.joblib
+# =========================
+# OS GENERATED FILES
+# =========================
+.DS_Store
+Thumbs.db

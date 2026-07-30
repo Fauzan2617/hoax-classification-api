@@ -18,3 +18,12 @@ slowapi==0.1.4
 
 # Library Machine Learning
 scikit-learn==1.3.2
+
+# library untuk .env
+python-dotenv==1.0.0
+
+# keperluan untuk streamlit
+streamlit==1.28.2
+requests==2.31.0
+
+mlflow
