@@ -4,7 +4,7 @@ import requests
 # Konfigurasi halaman
 st.set_page_config(page_title="Deteksi Berita Hoaks", page_icon="🕵️‍♂️", layout="centered")
 
-API_URL = "apiklasifikasihoaks1-ddkzlmyj.b4a.run"
+API_URL = "https://apiklasifikasihoaks1-8kiybezf.b4a.run/predict"
 
 st.title("🕵️‍♂️ Sistem Klasifikasi Berita Hoaks")
 st.markdown("Masukkan teks berita di bawah ini, dan sistem AI kami akan memverifikasi apakah itu **Fakta**, **Hoaks**, atau **Perlu Verifikasi** berdasarkan pola teks.")
